@@ -1,0 +1,65 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>igs_backend</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.5.2" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.Core" Version="5.2.9" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.19" />
+    <PackageReference Include="Microsoft.AspNetCore.JsonPatch" Version="7.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.21" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.21">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.16" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Filters" Version="7.0.8" />
+    <PackageReference Include="Swashbuckle.Core" Version="5.6.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Uploads\BannerImages\" />
+    <Folder Include="Uploads\NewsImages\" />
+    <Folder Include="wwwroot\GameIcons\" />
+    <Folder Include="wwwroot\Groups\" />
+    <Folder Include="wwwroot\Banners\" />
+    <Folder Include="wwwroot\Announces\" />
+    <Folder Include="wwwroot\Marquees\" />
+    <Folder Include="wwwroot\Images\" />
+    <Folder Include="wwwroot\Maintenances\" />
+    <Folder Include="wwwroot\DepositPolicy\" />
+    <Folder Include="wwwroot\Cam\Announces\" />
+    <Folder Include="wwwroot\Cam\Banners\" />
+    <Folder Include="wwwroot\Cam\DepositPolicy\" />
+    <Folder Include="wwwroot\Cam\Groups\" />
+    <Folder Include="wwwroot\Cam\Maintenances\" />
+    <Folder Include="wwwroot\Cam\Marquees\" />
+    <Folder Include="wwwroot\Cam\News\" />
+    <Folder Include="wwwroot\Cam\WithdrawPolicy\" />
+    <Folder Include="wwwroot\My\Announces\" />
+    <Folder Include="wwwroot\My\Banners\" />
+    <Folder Include="wwwroot\My\DepositPolicy\" />
+    <Folder Include="wwwroot\My\Groups\" />
+    <Folder Include="wwwroot\My\Maintenances\" />
+    <Folder Include="wwwroot\My\Marquees\" />
+    <Folder Include="wwwroot\My\News\" />
+    <Folder Include="wwwroot\My\WithdrawPolicy\" />
+    <Folder Include="wwwroot\Viet\Announces\" />
+    <Folder Include="wwwroot\Viet\Banners\" />
+    <Folder Include="wwwroot\Viet\DepositPolicy\" />
+    <Folder Include="wwwroot\Viet\Groups\" />
+    <Folder Include="wwwroot\Viet\Maintenances\" />
+    <Folder Include="wwwroot\Viet\Marquees\" />
+    <Folder Include="wwwroot\Viet\News\" />
+    <Folder Include="wwwroot\Viet\WithdrawPolicy\" />
+    <Folder Include="wwwroot\WithdrawPolicy\" />
+    <Folder Include="wwwroot\News\" />
+  </ItemGroup>
+
+</Project>
